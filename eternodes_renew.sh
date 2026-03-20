@@ -167,7 +167,7 @@ fi
 if [ -n "$TG_BOT" ]; then
   TG_CHAT_ID=$(echo "$TG_BOT" | cut -d',' -f1)
   TG_TOKEN=$(echo "$TG_BOT" | cut -d',' -f2)
-  RUN_TIME=$(date '+%Y-%m-%d %H:%M:%S')"
+  RUN_TIME=$(date '+%Y-%m-%d %H:%M:%S')
 
   MESSAGE="⚡ Eternodes 续期任务
 🕐 运行时间: ${RUN_TIME}

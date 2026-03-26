@@ -4,11 +4,7 @@
 
 ## 使用方法
 
-### 1. Fork 本仓库
-
-点击右上角 **Fork** 按钮。
-
-### 2. 设置 GitHub Secrets
+### 1. 设置 GitHub Secrets
 
 **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
 
@@ -20,7 +16,7 @@
 | `GOST_PROXY` | ⭕ 可选 | 代理地址，不填则直连 | `socks5://user:pass@host:port` |
 | `TG_BOT` | ⭕ 可选 | Telegram 通知，不填则跳过 | `CHAT_ID,BOT_TOKEN` |
 
-### 3. 运行
+### 2. 运行
 
 - **自动运行**：每28天 UTC 03:00 自动执行，续期窗口期内会成功，窗口期外会失败但不影响
 - **手动运行**：Actions → Eternodes 续期 → Run workflow
